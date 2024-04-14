@@ -33,6 +33,7 @@ body {
     var(--bgc-navy),
     var(--bgc-denim) 124%
   );
+  background-repeat: no-repeat;
 }
 
 ul {
@@ -44,7 +45,7 @@ a {
 }
 
 img {
-  max-width: 75%;
+  width: 75%;
   height: 100%;
   animation: bobbing-animation 5s ease-in-out infinite;
 }
@@ -131,141 +132,137 @@ img {
 }
 
 /* Mobile devices */
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    gap: 2.25rem;
   }
 
   .container .left-section {
-    order: 2;
     text-align: center;
-    margin-bottom: 3rem;
   }
 
-  .container .right-section {
-    order: 1;
+  .container .left-section .heading {
+    font-size: 3.5rem;
+    letter-spacing: 0.25rem;
   }
 
-  .left-section .heading {
-    font-size: 4rem;
-    line-height: 6rem;
+  .container .left-section .description {
+    padding-top: 1.25rem;
+    font-size: 1.25rem;
   }
 
-  .left-section .description {
-    font-size: 1.8rem;
-    line-height: 2.8rem;
-  }
-
-  .left-section .buttons-wrapper {
-    justify-content: center;
-    align-items: center;
+  .container .left-section .buttons-wrapper {
     gap: 2.5rem;
-    padding-top: 2rem;
+    justify-content: center;
+    padding-top: 1.5rem;
   }
 
-  .button svg {
+  .container .left-section .buttons-wrapper .button svg {
     height: 36px;
     width: 36px;
   }
-
-  .right-section img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 
-/* Tablet devices */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 481px) and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+
   .container {
-    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
 
-  .container .left-section {
-    flex: 8;
-    text-align: center;
-    margin-right: 2rem;
-  }
-
+  .container .left-section,
   .container .right-section {
     flex: 6;
   }
 
-  .left-section .heading {
-    font-size: 5rem;
-    line-height: 8rem;
+  .container .left-section .heading {
+    font-size: 4.5rem;
+    letter-spacing: 0.25rem;
   }
 
-  .left-section .description {
-    font-size: 1.8rem;
-    line-height: 2.8rem;
+  .container .left-section .description {
+    font-size: 1.25rem;
   }
 
-  .left-section .buttons-wrapper {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  .container .left-section .buttons-wrapper {
     gap: 2.5rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
   }
 
-  .button svg {
+  .container .left-section .buttons-wrapper .button svg {
+    height: 36px;
+    width: 36px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .left-section,
+  .container .right-section {
+    flex: 6;
+    text-align: left;
+  }
+
+  .container .left-section .heading {
+    font-size: 4.5rem;
+    letter-spacing: 0.25rem;
+  }
+
+  .container .left-section .description {
+    font-size: 1.25rem;
+  }
+
+  .container .left-section .buttons-wrapper {
+    gap: 2.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .container .left-section .buttons-wrapper .button svg {
     height: 42px;
     width: 42px;
   }
-
-  .right-section img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 
-/* Larger devices */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .container {
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
 
-  .container .left-section {
+  .container .left-section,
+  .container .right-section {
     flex: 6;
     text-align: left;
-    margin-right: 2rem;
   }
 
-  .container .right-section {
-    flex: 8;
-  }
-
-  .left-section .heading {
+  .container .left-section .heading {
     font-size: 6rem;
-    line-height: 9rem;
   }
 
-  .left-section .description {
+  .container .left-section .description {
+    padding-top: 1.25rem;
     font-size: 2rem;
-    line-height: 3rem;
   }
 
-  .left-section .buttons-wrapper {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  .container .left-section .buttons-wrapper {
     gap: 3.75rem;
     padding-top: 3rem;
+    align-items: center;
   }
 
-  .button svg {
+  .container .left-section .buttons-wrapper .button svg {
     height: 48px;
     width: 48px;
-  }
-
-  .right-section img {
-    max-width: 560px;
-    height: 520px;
   }
 }
