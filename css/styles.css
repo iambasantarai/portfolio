@@ -5,6 +5,7 @@
   --text-white: #ffffff;
   --text-gray: #78909c;
   --text-blue: #53b5ff;
+  --text-cyan: #bad9fc;
   --bgc-navy: #25395a;
   --bgc-denim: #171631;
 }
@@ -75,6 +76,11 @@ img {
   font-size: 2rem;
   font-weight: 500;
   color: var(--text-gray);
+}
+
+.profession {
+  color: var(--text-cyan);
+  text-decoration: underline;
 }
 
 .buttons-wrapper {
