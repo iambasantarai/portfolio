@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Kanit:wght@800&display=swap");
 
 /* variables */
 :root {
@@ -16,14 +16,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: calc(1em + 0.5rem);
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  height: 100vh;
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
+  height: 100%;
   background-image: radial-gradient(
     circle at 0 2%,
     var(--bgc-navy),
@@ -31,10 +34,18 @@ body {
   );
 }
 
-.intro-section {
-  padding: 15rem 0;
-  height: 100vh;
-  width: 100%;
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 75%;
+  height: 100%;
+  animation: bobbing-animation 5s ease-in-out infinite;
 }
 
 .container {
@@ -45,60 +56,54 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5rem;
+}
+
+.left-section,
+.right-section {
+  text-align: center;
+}
+
+.heading {
+  color: var(--text-white);
+  font-weight: 800;
+  font-size: 6rem;
+  font-family: "Kanit";
+}
+
+.description {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--text-gray);
+}
+
+.buttons-wrapper {
+  gap: 3.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .button {
   cursor: pointer;
-}
-
-/* left section */
-.intro-section .container .left-section {
-  flex: 6;
-}
-
-.intro-section .left-section .heading {
-  color: var(--text-white);
-  font-weight: 600;
-  font-size: 6rem;
-  line-height: 9rem;
-}
-
-.intro-section .left-section .description {
-  color: var(--text-gray);
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 3rem;
-}
-
-.intro-section .left-section .buttons-wrapper {
-  padding-top: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 3.75rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-.intro-section .button {
   color: var(--text-gray);
 }
 
-.intro-section .button svg {
+.button svg {
   height: 48px;
   width: 48px;
   opacity: 0.75;
-  transform: scale(1);
+  transition: opacity 0.25s ease-in;
 }
 
-.intro-section .button svg:hover {
+.button svg:hover {
   opacity: 1;
-  animation: logo-animation 0.5s ease-in-out infinite alternate;
+  transition: opacity;
+  animation: pulse-animation 0.5s ease-in-out infinite alternate;
 }
 
-@keyframes logo-animation {
+/* animations */
+@keyframes pulse-animation {
   0% {
     transform: scale(1);
   }
@@ -108,87 +113,58 @@ a {
   }
 }
 
-/* right section */
-.intro-section .container .right-section {
-  flex: 8;
-}
-
-.intro-section .right-section {
-  text-align: right;
-}
-
-.intro-section .right-section img {
-  width: 100%;
-  max-width: 560px;
-  height: 520px;
-}
-
-img {
-  height: 100%;
-  width: 100%;
-  animation: updown-animation 5s ease-in-out infinite;
-}
-
-@keyframes updown-animation {
-  0% {
-    transform: translateY(-20px);
+@keyframes bobbing-animation {
+  0%,
+  100% {
+    transform: translateY(-10px);
   }
 
   50% {
-    transform: translateY(20px);
-  }
-
-  100% {
-    transform: translateY(-20px);
+    transform: translateY(10px);
   }
 }
 
 /* Mobile devices */
 @media (max-width: 767px) {
-  .intro-section {
-    padding: 10rem 0;
-    height: auto;
-  }
-
-  .intro-section .container {
+  .container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .intro-section .container .left-section {
+  .container .left-section {
     order: 2;
     text-align: center;
     margin-bottom: 3rem;
   }
 
-  .intro-section .container .right-section {
+  .container .right-section {
     order: 1;
   }
 
-  .intro-section .left-section .heading {
+  .left-section .heading {
     font-size: 4rem;
     line-height: 6rem;
   }
 
-  .intro-section .left-section .description {
+  .left-section .description {
     font-size: 1.8rem;
     line-height: 2.8rem;
   }
 
-  .intro-section .left-section .buttons-wrapper {
+  .left-section .buttons-wrapper {
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
     padding-top: 2rem;
   }
 
-  .intro-section .button svg {
+  .button svg {
     height: 36px;
     width: 36px;
   }
 
-  .intro-section .right-section img {
+  .right-section img {
     max-width: 100%;
     height: auto;
   }
@@ -196,38 +172,33 @@ img {
 
 /* Tablet devices */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .intro-section {
-    padding: 12rem 0;
-    height: auto;
-  }
-
-  .intro-section .container {
+  .container {
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
 
-  .intro-section .container .left-section {
+  .container .left-section {
     flex: 8;
     text-align: center;
     margin-right: 2rem;
   }
 
-  .intro-section .container .right-section {
+  .container .right-section {
     flex: 6;
   }
 
-  .intro-section .left-section .heading {
+  .left-section .heading {
     font-size: 5rem;
     line-height: 8rem;
   }
 
-  .intro-section .left-section .description {
+  .left-section .description {
     font-size: 1.8rem;
     line-height: 2.8rem;
   }
 
-  .intro-section .left-section .buttons-wrapper {
+  .left-section .buttons-wrapper {
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -235,12 +206,12 @@ img {
     padding-top: 2rem;
   }
 
-  .intro-section .button svg {
+  .button svg {
     height: 42px;
     width: 42px;
   }
 
-  .intro-section .right-section img {
+  .right-section img {
     max-width: 100%;
     height: auto;
   }
@@ -248,38 +219,33 @@ img {
 
 /* Larger devices */
 @media (min-width: 1024px) {
-  .intro-section {
-    padding: 15rem 0;
-    height: 100vh;
-  }
-
-  .intro-section .container {
+  .container {
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
 
-  .intro-section .container .left-section {
+  .container .left-section {
     flex: 6;
     text-align: left;
     margin-right: 2rem;
   }
 
-  .intro-section .container .right-section {
+  .container .right-section {
     flex: 8;
   }
 
-  .intro-section .left-section .heading {
+  .left-section .heading {
     font-size: 6rem;
     line-height: 9rem;
   }
 
-  .intro-section .left-section .description {
+  .left-section .description {
     font-size: 2rem;
     line-height: 3rem;
   }
 
-  .intro-section .left-section .buttons-wrapper {
+  .left-section .buttons-wrapper {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -287,12 +253,12 @@ img {
     padding-top: 3rem;
   }
 
-  .intro-section .button svg {
+  .button svg {
     height: 48px;
     width: 48px;
   }
 
-  .intro-section .right-section img {
+  .right-section img {
     max-width: 560px;
     height: 520px;
   }
