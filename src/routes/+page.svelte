@@ -1,5 +1,22 @@
-<h1 class="font-bold font-manrope">Welcome to SvelteKit</h1>
-<p class="text-sm">
-	Visit <a class="text-blue-500 font-jbmono" href="https://kit.svelte.dev">kit.svelte.dev</a
-	> to read the documentation
-</p>
+<script lang="ts">
+    import  * as config from "$lib/config";
+    import {formatDate} from "$lib/utils";
+
+    export let data
+</script>
+
+<svelte:head>
+    <title>{config.name}</title>
+</svelte:head>
+
+<section>
+    <ul>
+        {#each data.blogs as blog}
+            <li>
+                <a href={blog.slug}>{blog.title}</a>
+                <p>{formatDate(blog.date)}</p>
+                <p>{blog.description}</p>
+            </li>
+        {/each}
+    </ul>
+</section>
