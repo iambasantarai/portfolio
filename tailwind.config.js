@@ -8,5 +8,5 @@ export default {
 			jbmono: ['JetBrains Mono', 'monospace']
 		}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };
