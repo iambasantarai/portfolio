@@ -16,7 +16,7 @@
         <p>{formatDate(data.metadata.date)}</p>
     </hgroup>
 
-    <div class="prose prose-gray">
+    <div class="prose prose-zinc">
         <svelte:component this={data.content} />
     </div>
 
