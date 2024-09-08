@@ -4,7 +4,6 @@ export default {
 	theme: {
 		extend: {},
 		fontFamily: {
-			manrope: ['Manrope', 'sans-serif'],
 			jbmono: ['JetBrains Mono', 'monospace']
 		}
 	},

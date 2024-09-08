@@ -37,7 +37,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/jetbrains-mono": "^5.0.21",
-		"@fontsource/manrope": "^5.0.21"
+		"@fontsource/jetbrains-mono": "^5.0.21"
 	}
 }
