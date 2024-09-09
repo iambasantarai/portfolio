@@ -11,9 +11,6 @@ importers:
       '@fontsource/jetbrains-mono':
         specifier: ^5.0.21
         version: 5.0.21
-      '@fontsource/manrope':
-        specifier: ^5.0.21
-        version: 5.0.21
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
@@ -258,9 +255,6 @@ packages:
 
   '@fontsource/jetbrains-mono@5.0.21':
     resolution: {integrity: sha512-BjI7a4U4HC4R3rEq96dN4CKtH8qxHFA+zU+6Ftusn/9k+VbF+VZ1l5bmHCUtg2ekjXbGF955/1FODlCKXleaGQ==}
-
-  '@fontsource/manrope@5.0.21':
-    resolution: {integrity: sha512-epFrEcKE9Jm2yyqYspmpPV/cBDQrygQ5yNGt5Gv0P8TU5ks9ygYsbpx1U/WvQPOVFp5h+qFZjD9S6dZUzmRRRg==}
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -1739,8 +1733,6 @@ snapshots:
   '@eslint/object-schema@2.1.4': {}
 
   '@fontsource/jetbrains-mono@5.0.21': {}
-
-  '@fontsource/manrope@5.0.21': {}
 
   '@humanwhocodes/module-importer@1.0.1': {}
 
