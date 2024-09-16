@@ -1,11 +1,17 @@
 <script lang="ts">
-	import LinuxIcon from '../assets/icons/linux.svelte';
-	import NeovimIcon from '../assets/icons/neovim.svelte';
-	import TmuxIcon from '../assets/icons/tmux.svelte';
-	import GoIcon from '../assets/icons/golang.svelte';
-	import NodeJsIcon from '../assets/icons/nodejs.svelte';
+	import DockerIcon from '../assets/icons/docker.svelte';
 	import ExpressIcon from '../assets/icons/express.svelte';
+	import GitIcon from '../assets/icons/git.svelte';
+	import GoIcon from '../assets/icons/golang.svelte';
+	import JsIcon from '../assets/icons/js.svelte';
+	import LaravelIcon from '../assets/icons/laravel.svelte';
+	import LinuxIcon from '../assets/icons/linux.svelte';
 	import LuaIcon from '../assets/icons/lua.svelte';
+	import NeovimIcon from '../assets/icons/neovim.svelte';
+	import NodeJsIcon from '../assets/icons/nodejs.svelte';
+	import PHPIcon from '../assets/icons/php.svelte';
+	import TmuxIcon from '../assets/icons/tmux.svelte';
+	import TsIcon from '../assets/icons/ts.svelte';
 
 	const toolBoxItems = [
 		{
@@ -21,6 +27,14 @@
 			icon: NeovimIcon
 		},
 		{
+			title: 'Docker',
+			icon: DockerIcon
+		},
+		{
+			title: 'Git',
+			icon: GitIcon
+		},
+		{
 			title: 'Lua',
 			icon: LuaIcon
 		},
@@ -29,12 +43,28 @@
 			icon: GoIcon
 		},
 		{
+			title: 'Javascript',
+			icon: JsIcon
+		},
+		{
+			title: 'Typescript',
+			icon: TsIcon
+		},
+		{
 			title: 'Node.js',
 			icon: NodeJsIcon
 		},
 		{
 			title: 'Express',
 			icon: ExpressIcon
+		},
+		{
+			title: 'PHP',
+			icon: PHPIcon
+		},
+		{
+			title: 'Laravel',
+			icon: LaravelIcon
 		}
 	];
 </script>
