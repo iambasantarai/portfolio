@@ -43,7 +43,7 @@
 	</ol>
 
 	<a
-		class="g:bg-zinc-800/50 group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 px-3 py-2 text-sm font-medium text-zinc-300 outline-offset-2 transition hover:bg-zinc-800 hover:text-zinc-50 active:bg-zinc-800/50 active:text-zinc-50/70 active:transition-none"
+		class="bg-zinc-800/50 group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 px-3 py-2 text-sm font-medium text-zinc-300 outline-offset-2 transition hover:bg-zinc-800 hover:text-zinc-50 active:bg-zinc-800/50 active:text-zinc-50/70 active:transition-none"
 		href="/"
 	>
 		Download Resume
@@ -51,7 +51,7 @@
 			viewBox="0 0 16 16"
 			fill="none"
 			aria-hidden="true"
-			class="'':group-hover:stroke-zinc-50 '':group-active:stroke-zinc-50 h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600"
+			class="group-hover:stroke-zinc-50 group-active:stroke-zinc-50 h-4 w-4 stroke-zinc-400 transition"
 		>
 			<path
 				d="M4.75 8.75 8 12.25m0 0 3.25-3.5M8 12.25v-8.5"
