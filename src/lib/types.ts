@@ -1,4 +1,4 @@
-export type Blog = {
+export type Writing = {
 	title: string;
 	slug: string;
 	description: string;

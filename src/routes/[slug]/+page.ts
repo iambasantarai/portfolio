@@ -2,11 +2,11 @@ import { error } from '@sveltejs/kit';
 
 export async function load({ params }) {
 	try {
-		const blog = await import(`../../blogs/${params.slug}.md`);
+		const writing = await import(`../../writings/${params.slug}.md`);
 
 		return {
-			content: blog.default,
-			metadata: blog.metadata
+			content: writing.default,
+			metadata: writing.metadata
 		};
 	} catch (e) {
 		throw error(404, `Couldn't find ${params.slug}`);

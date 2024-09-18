@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import HeroSection from './hero.svelte';
 	import Experience from './experience.svelte';
 	import ToolBox from './tools.svelte';
@@ -48,14 +48,14 @@
 		<p class="text-xs leading-normal text-zinc-400">Basically experiments...</p>
 
 		<ul class="mt-4 space-y-2">
-			{#each data.blogs as blog}
+			{#each data.writings as writing}
 				<li class="">
 					<a
 						class="text-lg font-semibold no-underline hover:underline"
-						href={blog.slug}>{blog.title}</a
+						href={writing.slug}>{writing.title}</a
 					>
 					<p class="text-base font-normal leading-normal text-zinc-400">
-						{blog.description}
+						{writing.description}
 					</p>
 				</li>
 			{/each}
