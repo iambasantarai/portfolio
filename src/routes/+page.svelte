@@ -1,11 +1,9 @@
-<script>
+<script lang="ts">
 	import HeroSection from './hero.svelte';
 	import Experience from './experience.svelte';
 	import ToolBox from './tools.svelte';
 
 	import * as config from '$lib/config';
-
-	export let data;
 </script>
 
 <svelte:head>
@@ -14,8 +12,6 @@
 
 <section class="">
 	<HeroSection />
-
-	<Experience />
 
 	<div class="mt-8">
 		<h2 class="text-2xl font-bold text-zinc-400">Education</h2>
@@ -43,24 +39,7 @@
 		</ol>
 	</div>
 
-	<div class="mt-8">
-		<h2 class="text-2xl font-bold text-zinc-400">Writings</h2>
-		<p class="text-xs leading-normal text-zinc-400">Basically experiments...</p>
-
-		<ul class="mt-4 space-y-2">
-			{#each data.writings as writing}
-				<li class="">
-					<a
-						class="text-lg font-semibold no-underline hover:underline"
-						href={writing.slug}>{writing.title}</a
-					>
-					<p class="text-base font-normal leading-normal text-zinc-400">
-						{writing.description}
-					</p>
-				</li>
-			{/each}
-		</ul>
-	</div>
+	<Experience />
 
 	<ToolBox />
 </section>
