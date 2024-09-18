@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { escapeSvelte, mdsvex } from 'mdsvex';
 import { bundledLanguages, bundledThemes, createHighlighter } from 'shiki';
@@ -27,6 +27,9 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
 		adapter: adapter()
+	},
+	paths: {
+		base: process.env.NODE_ENV === 'production' ? 'portfolio' : ''
 	}
 };
 
