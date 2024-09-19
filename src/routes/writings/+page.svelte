@@ -14,18 +14,18 @@
 		Sometimes, I just want to be creative, but...
 	</p>
 
-	<ul class="mt-4 space-y-2">
+	<ul class="mt-4 space-y-4">
 		{#each data.writings as writing}
 			<li class="">
 				<a
-					class="text-lg font-semibold no-underline hover:underline"
+					class="text-2xl font-semibold no-underline hover:underline"
 					href={`/writings/${writing.slug}`}>{writing.title}</a
 				>
 				<p class="text-base font-normal leading-normal text-zinc-400">
 					{writing.description}
 				</p>
 				<a
-					class="text-xs text-zinc-500 no-underline hover:text-zinc-400 hover:underline"
+					class="text-xs font-semibold text-zinc-500 no-underline hover:text-zinc-400 hover:underline"
 					href={`/writings/${writing.slug}`}>Read &rarr;</a
 				>
 			</li>
