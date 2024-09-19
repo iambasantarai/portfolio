@@ -13,6 +13,10 @@
 <section class="">
 	<HeroSection />
 
+    <div class="mt-2">
+        <p class="text-base text-center">Hi, I’m Basanta Rai, a tinkerer with a passion for programming.</p>
+    <div>
+
 	<div class="mt-8">
 		<h2 class="text-2xl font-bold text-zinc-400">Education</h2>
 
