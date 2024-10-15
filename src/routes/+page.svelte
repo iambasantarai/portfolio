@@ -26,14 +26,14 @@
 						<a
 							href="https://github.com/iambasantarai"
 							target="_blank"
-							class="font-semibold text-zinc-400 hover:text-zinc-200">GitHub</a
+							class="underline font-semibold text-zinc-400 hover:text-zinc-200">GitHub</a
 						>
 					</li>
 					<li class="px-4">
 						<a
 							href="https://www.linkedin.com/in/iambasantarai/"
 							target="_blank"
-							class="font-semibold text-zinc-400 hover:text-zinc-200"
+							class="underline font-semibold text-zinc-400 hover:text-zinc-200"
 							>LinkedIn</a
 						>
 					</li>
@@ -41,7 +41,7 @@
 						<a
 							href="https://x.com/iambasantarai"
 							target="_blank"
-							class="font-semibold text-zinc-400 hover:text-zinc-200">X</a
+							class="underline font-semibold text-zinc-400 hover:text-zinc-200">X</a
 						>
 					</li>
 				</ol>
