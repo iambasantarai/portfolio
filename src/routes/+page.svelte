@@ -50,10 +50,10 @@
 				</ol>
 			</div>
 
-			<div class="mt-8">
+			<div class="mt-12">
 				<h2 class="text-2xl font-bold text-zinc-400">Education</h2>
 
-				<ol class="mt-6 space-y-4">
+				<ol class="mt-2 space-y-4">
 					<li class="flex gap-4">
 						<dl class="flex flex-auto flex-wrap gap-x-2">
 							<dt class="sr-only">Course</dt>
@@ -81,6 +81,12 @@
 			</div>
 
 			<Experience />
+
+            <div class="mt-12">
+                <h2 class="text-2xl font-bold text-zinc-400">Projects</h2>
+
+                <p class="text-xs leading-normal text-zinc-400">Adding soon...</p>
+			</div>
 
 			<ToolBox />
 		</div>

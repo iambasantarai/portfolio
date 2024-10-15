@@ -69,7 +69,7 @@
 	];
 </script>
 
-<div class="mt-8">
+<div class="mt-12">
 	<h2 class="text-2xl font-bold text-zinc-400">Toolbox</h2>
 	<p class="text-xs leading-normal text-zinc-400">
 		Tools and technologies that i'm familiar with...

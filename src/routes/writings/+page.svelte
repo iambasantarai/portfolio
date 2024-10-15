@@ -14,7 +14,7 @@
 		Sometimes, I just want to be creative, but...
 	</p>
 
-	<ul class="mt-4 space-y-4">
+	<ul class="mt-12 space-y-4">
 		{#each data.writings as writing}
 			<li class="">
 				<a

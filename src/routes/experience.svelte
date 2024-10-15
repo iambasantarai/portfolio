@@ -2,10 +2,10 @@
 	let resumeURL = '/basanta_rai_resume_2024.pdf';
 </script>
 
-<div class="mt-8">
+<div class="mt-12">
 	<h2 class="text-2xl font-bold text-zinc-400">Experience</h2>
 
-	<ol class="mt-6 space-y-4">
+	<ol class="mt-2 space-y-4">
 		<li class="flex gap-4">
 			<dl class="flex flex-auto flex-wrap gap-x-2">
 				<dt class="sr-only">Company</dt>
