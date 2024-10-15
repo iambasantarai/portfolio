@@ -15,7 +15,7 @@
 
 	<div class="mt-2">
 		<p class="text-center text-base">
-			Hi, I’m Basanta Rai from <span class="font-semibold">Nepal</span>, a tinkerer with a passion for programming.
+			Hi, I’m Basanta, a <span class="font-semibold">backend</span> developer from <span class="font-semibold">Nepal</span>.
 		</p>
 		<div>
 			<div class="mt-2">
