@@ -14,9 +14,6 @@
 
 		<div class="mt-2">
 			<h1 class="text-2xl font-semibold">Basanta Rai</h1>
-			<p>
-				Developer from <span class="font-semibold">Nepal.</span>
-			</p>
 		</div>
 	</div>
 </div>

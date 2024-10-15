@@ -15,12 +15,12 @@
 
 	<div class="mt-2">
 		<p class="text-center text-base">
-			Hi, I’m Basanta Rai, a tinkerer with a passion for programming.
+			Hi, I’m Basanta Rai from <span class="font-semibold">Nepal</span>, a tinkerer with a passion for programming.
 		</p>
 		<div>
 			<div class="mt-2">
 				<ol
-					class="mx-auto flex flex-row items-center justify-center divide-x-2 divide-solid divide-zinc-400"
+					class="mx-auto flex flex-row items-center justify-center divide-x-2 divide-current divide-zinc-400"
 				>
 					<li class="px-4">
 						<a
