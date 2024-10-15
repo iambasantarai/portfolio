@@ -15,7 +15,8 @@
 
 	<div class="mt-2">
 		<p class="text-center text-base">
-			Hi, I’m Basanta, a <span class="font-semibold">backend</span> developer from <span class="font-semibold">Nepal</span>.
+			Hi, I’m Basanta, a <span class="font-semibold">backend</span> developer
+			from <span class="font-semibold">Nepal</span>.
 		</p>
 		<div>
 			<div class="mt-2">
@@ -26,14 +27,15 @@
 						<a
 							href="https://github.com/iambasantarai"
 							target="_blank"
-							class="underline font-semibold text-zinc-400 hover:text-zinc-200">GitHub</a
+							class="font-semibold text-zinc-400 underline hover:text-zinc-200"
+							>GitHub</a
 						>
 					</li>
 					<li class="px-4">
 						<a
 							href="https://www.linkedin.com/in/iambasantarai/"
 							target="_blank"
-							class="underline font-semibold text-zinc-400 hover:text-zinc-200"
+							class="font-semibold text-zinc-400 underline hover:text-zinc-200"
 							>LinkedIn</a
 						>
 					</li>
@@ -41,7 +43,8 @@
 						<a
 							href="https://x.com/iambasantarai"
 							target="_blank"
-							class="underline font-semibold text-zinc-400 hover:text-zinc-200">X</a
+							class="font-semibold text-zinc-400 underline hover:text-zinc-200"
+							>X</a
 						>
 					</li>
 				</ol>
