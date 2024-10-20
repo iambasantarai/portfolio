@@ -79,7 +79,7 @@
 		class="mt-6 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
 	>
 		<div
-			class="flex flex-none animate-move-left gap-6 py-0.5 [animation-duration:30s]"
+			class="flex flex-none animate-move-left gap-6 py-0.5 [animation-duration:45s]"
 		>
 			{#each [...toolBoxItems, ...toolBoxItems] as item}
 				<div
@@ -98,7 +98,7 @@
 		class="mt-6 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
 	>
 		<div
-			class="flex flex-none animate-move-right gap-6 py-0.5 pr-6 [animation-duration:15s]"
+			class="flex flex-none animate-move-right gap-6 py-0.5 pr-6 [animation-duration:30s]"
 		>
 			{#each [...toolBoxItems, ...toolBoxItems] as item}
 				<div
