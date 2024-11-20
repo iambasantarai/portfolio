@@ -69,11 +69,10 @@
 							<dt class="sr-only">Date</dt>
 							<dd
 								class="ml-auto text-xs text-zinc-500"
-								aria-label="Aug, 2023 until Present"
 							>
 								<time datetime="2023">2019</time>
 								<span aria-hidden="true">—</span>
-								<time datetime="2024">Present</time>
+								<time datetime="2024">2024</time>
 							</dd>
 						</dl>
 					</li>
