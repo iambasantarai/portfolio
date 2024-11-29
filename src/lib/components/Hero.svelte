@@ -1,20 +1,18 @@
 <div class="mt-8">
-	<div class="flex flex-col items-center">
-		<a
-			aria-label="Home"
-			class="pointer-events-auto block h-24 w-24 origin-left"
-			href="/"
-		>
-			<img
-				alt="headshot"
-				class="h-24 w-24 rounded-full bg-zinc-800 object-cover"
-				src="/basanta.png"
-			/>
-		</a>
+    <div class="flex flex-col items-center">
+        <div class="h-24 w-24 overflow-hidden rounded-full bg-zinc-800">
+            <a
+                aria-label="Home"
+                class="pointer-events-auto block h-24 w-24 origin-left"
+                href="/"
+                >
+                <img src="/basanta.png" alt="Hassan Zahirnia" class="h-full w-full object-cover transition duration-300 hover:scale-125" width="auto" height="auto">
+            </a>
+        </div>
 
-		<div class="mt-2">
-			<h1 class="text-2xl font-semibold">Hi, I'm Basanta</h1>
-		</div>
+        <div class="mt-2">
+            <h1 class="text-2xl font-semibold">Hi, I'm Basanta</h1>
+        </div>
 
         <p class="text-base">
             A software developer from <strong>Nepal</strong> with over a year of experience in software development, with a focus on <strong>web development</strong>. I work mostly with <strong>Node.js</strong>, with occasional use of <strong>React</strong>.
@@ -24,7 +22,7 @@
         <div class="mt-2">
             <ol
                 class="mx-auto flex flex-row items-center justify-center divide-x-2 divide-current divide-zinc-400"
-                >
+            >
                 <li class="px-4">
                     <a
                         href="https://github.com/iambasantarai"

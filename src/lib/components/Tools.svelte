@@ -39,26 +39,7 @@
 		class="mt-6 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
 	>
 		<div
-			class="flex flex-none animate-move-left gap-6 py-0.5 [animation-duration:45s]"
-		>
-			{#each [...tools, ...tools] as tool}
-				<div
-					class="inline-flex items-center gap-4 rounded-lg px-3 py-2 outline outline-2 outline-zinc-200/10"
-				>
-					<span>
-						<svelte:component this={tool.icon} />
-					</span>
-					<span class="font-semibold">{tool.title}</span>
-				</div>
-			{/each}
-		</div>
-	</div>
-
-	<div
-		class="mt-6 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
-	>
-		<div
-			class="flex flex-none animate-move-right gap-6 py-0.5 pr-6 [animation-duration:30s]"
+			class="flex flex-none animate-move-left gap-6 py-0.5 [animation-duration:30s] hover:[animation-play-state:paused]"
 		>
 			{#each [...tools, ...tools] as tool}
 				<div
