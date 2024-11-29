@@ -3,7 +3,7 @@
 
     import {Icon, DocumentArrowDown} from "svelte-hero-icons";
 
-    const workExperiences = [
+    const experiences = [
         {from: "Aug, 2023", to: "Present", company: "Amnil Technologies Pvt. Ltd.", position: "Associate Software Engineer"},
         {from: "May, 2023", to: "Aug, 2023", company: "Amnil Technologies Pvt. Ltd.", position: "Node.js Intern"},
     ];
@@ -12,12 +12,12 @@
 <div class="mt-2">
     <div class="">
         <ol class="relative border-l border-l-zinc-200">                  
-            {#each workExperiences as workExperience}
+            {#each experiences as experience}
                 <li class="m-4">
                     <div class="absolute w-3 h-3 bg-zinc-200 rounded-full mt-1.5 -start-1.5 border border-zinc-300"></div>
-                    <time class="mb-1 text-sm font-normal leading-none text-zinc-400">{workExperience.from} - {workExperience.to}</time>
-                    <h3 class="text-lg font-semibold text-zinc-200">{workExperience.company}</h3>
-                    <p class="text-base font-normal text-zinc-500">{workExperience.position}</p>
+                    <time class="mb-1 text-sm font-normal leading-none text-zinc-400">{experience.from} - {experience.to}</time>
+                    <h3 class="text-lg font-semibold text-zinc-200">{experience.company}</h3>
+                    <p class="text-base font-normal text-zinc-500">{experience.position}</p>
                 </li>
             {/each}
         </ol>
