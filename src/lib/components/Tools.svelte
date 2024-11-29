@@ -1,9 +1,9 @@
 <script lang="ts">
-	import DockerIcon from '../assets/icons/docker.svelte';
-	import GitIcon from '../assets/icons/git.svelte';
-	import LinuxIcon from '../assets/icons/linux.svelte';
-	import NeovimIcon from '../assets/icons/neovim.svelte';
-	import TmuxIcon from '../assets/icons/tmux.svelte';
+	import DockerIcon from '../../assets/icons/docker.svelte';
+	import GitIcon from '../../assets/icons/git.svelte';
+	import LinuxIcon from '../../assets/icons/linux.svelte';
+	import NeovimIcon from '../../assets/icons/neovim.svelte';
+	import TmuxIcon from '../../assets/icons/tmux.svelte';
 
 	const tools = [
 		{

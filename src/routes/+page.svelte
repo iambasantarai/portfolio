@@ -1,9 +1,6 @@
 <script lang="ts">
-    import {Education, Skills, WorkExperience} from '$lib/components';
+    import {Hero, Education, Skills, WorkExperience, Tools} from '$lib/components';
     import {Icon, AcademicCap, Briefcase, WrenchScrewdriver} from "svelte-hero-icons";
-
-	import HeroSection from './hero.svelte';
-	import ToolBox from './tools.svelte';
 
 	import * as config from '$lib/config';
 
@@ -21,7 +18,7 @@
 </svelte:head>
 
 <section>
-	<HeroSection />
+	<Hero/>
 
 	<div class="mt-2">
 		<p class="text-center text-base">
@@ -89,7 +86,7 @@
                 <p class="text-xs leading-normal text-zinc-400">Adding soon...</p>
 			</div>
 
-			<ToolBox />
+			<Tools/>
 		</div>
 	</div>
 </section>

@@ -1,8 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 
-	import Header from './header.svelte';
-	import Footer from './footer.svelte';
+    import {Header, Footer} from '$lib/components';
 </script>
 
 <div class="min-h-screen bg-zinc-950 text-zinc-200 antialiased">
