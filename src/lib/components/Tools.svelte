@@ -30,9 +30,9 @@
 </script>
 
 <div class="mt-12">
-	<h2 class="text-2xl font-bold text-zinc-400">Uses</h2>
-	<p class="text-xs leading-normal text-zinc-400">
-		Development tools
+	<h2 class="text-2xl font-bold text-zinc-200">Uses</h2>
+	<p class="text-sm leading-normal text-zinc-400">
+        The tools I rely on for my Personal Development Environment(PDE)
 	</p>
 
 	<div

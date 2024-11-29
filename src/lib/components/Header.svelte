@@ -9,12 +9,12 @@
 		>
 			<a
 				href="/"
-				class={`rounded-full px-2 py-1.5 transition duration-300 ease-in-out hover:bg-zinc-200/5 ${$page.url.pathname === '/' ? 'underline underline-offset-4' : ''}`}
+				class={`rounded-full px-2 py-1.5 transition-opacity duration-300 ease-in-out hover:bg-zinc-200/5 ${$page.url.pathname === '/' ? 'bg-zinc-200/5 border border-zinc-100/10 text-zinc-200' : 'text-zinc-300/85'}`}
 				>Home</a
 			>
 			<a
 				href="/writings"
-				class={`rounded-full px-2 py-1.5 transition duration-300 ease-in-out hover:bg-zinc-200/5 ${$page.url.pathname === '/writings' ? 'underline underline-offset-4' : ''}`}
+				class={`rounded-full px-2 py-1.5 transition-opacity duration-300 ease-in-out hover:bg-zinc-200/5 ${$page.url.pathname === '/writings' ? 'bg-zinc-200/5 border border-zinc-100/10' : 'text-zinc-300/85'}`}
 				>Writings</a
 			>
 		</nav>
