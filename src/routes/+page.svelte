@@ -3,7 +3,6 @@
     import {Icon, AcademicCap, Briefcase, WrenchScrewdriver} from "svelte-hero-icons";
 
 	import HeroSection from './hero.svelte';
-	import Experience from './experience.svelte';
 	import ToolBox from './tools.svelte';
 
 	import * as config from '$lib/config';
@@ -71,7 +70,7 @@
                         <li class="">
                             <button on:click={() => selectedTab = tab} class={`hover:text-zinc-300 ${selectedTab === tab ? 'text-zinc-200 border-b-2 border-b-zinc-200':'text-zinc-400' }`}>
                                 <div class="flex space-x-2">
-                                    <Icon src={tab.icon} size="24" solid />
+                                    <Icon src={tab.icon} size="24" solid class="hidden sm:block" />
                                     <span class="font-semibold">{tab.name}</span>
                                 </div>
                             </button>
@@ -83,37 +82,6 @@
             <div>
                 <svelte:component this={selectedTab.component}/>
             </div>
-
-			<div class="mt-12">
-				<h2 class="text-2xl font-bold text-zinc-400">Education</h2>
-
-				<ol class="mt-2 space-y-4">
-					<li class="flex gap-4">
-						<dl class="flex flex-auto flex-wrap gap-x-2">
-							<dt class="sr-only">Course</dt>
-							<dd
-								class="w-full flex-none text-base font-semibold text-zinc-100"
-							>
-								BSc.CSIT
-							</dd>
-							<dt class="sr-only">About</dt>
-							<dd class="text-xs text-zinc-400">
-								[TU] Prime College, Kathmandu
-							</dd>
-							<dt class="sr-only">Date</dt>
-							<dd
-								class="ml-auto text-xs text-zinc-500"
-							>
-								<time datetime="2023">2019</time>
-								<span aria-hidden="true">—</span>
-								<time datetime="2024">2024</time>
-							</dd>
-						</dl>
-					</li>
-				</ol>
-			</div>
-
-			<Experience />
 
             <div class="mt-12">
                 <h2 class="text-2xl font-bold text-zinc-400">Projects</h2>
