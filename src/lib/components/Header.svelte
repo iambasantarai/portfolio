@@ -5,7 +5,7 @@
 <header>
 	<div class="mt-2 flex items-center justify-center">
 		<nav
-			class="flex gap-1 rounded-full border border-zinc-100/15 bg-zinc-200/10 p-1 backdrop-blur"
+			class="flex gap-1 rounded-full border border-zinc-100/15  p-1 bg-zinc-950/75 backdrop-blur"
 		>
 			<a
 				href="/"
