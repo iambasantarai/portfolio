@@ -6,7 +6,7 @@
                 class="pointer-events-auto block h-24 w-24 origin-left"
                 href="/"
                 >
-                <img src="/basanta.png" alt="Hassan Zahirnia" class="h-full w-full object-cover transition duration-300 hover:scale-125" width="auto" height="auto">
+                <img src="/basanta.png" alt="Basanta Rai" class="h-full w-full object-cover transition duration-300 hover:scale-125" width="auto" height="auto">
             </a>
         </div>
 
