@@ -1,6 +1,6 @@
 <script lang="ts">
     const academics = [
-        {start: "2019", finish: "2024", course: "Bsc. Computer Science and Information Technology", institution: "Prime College, TU"},
+        {start: "2019", finish: "2024", course: "BSc. Computer Science and Information Technology", institution: "Prime College, TU"},
     ];
 </script>
 
