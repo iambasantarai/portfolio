@@ -1,12 +1,11 @@
 <script lang="ts">
-    import {Hero, Education, Skills, Experience, Tools} from '$lib/components';
-    import {Icon, AcademicCap, Briefcase, WrenchScrewdriver} from "svelte-hero-icons";
+    import {Hero, Education, Experience, Tools} from '$lib/components';
+    import {Icon, AcademicCap, Briefcase} from "svelte-hero-icons";
 
 	import * as config from '$lib/config';
 
     const tabs = [
         {name: "Experience", icon: Briefcase, component: Experience},
-        {name: "Skills", icon: WrenchScrewdriver, component: Skills},
         {name: "Education", icon: AcademicCap, component: Education},
     ]
 
@@ -40,12 +39,6 @@
             <div>
                 <svelte:component this={selectedTab.component}/>
             </div>
-
-            <div class="mt-12">
-                <h2 class="text-2xl font-bold text-zinc-200">Projects</h2>
-
-                <p class="text-sm leading-normal text-zinc-400">Adding soon...</p>
-			</div>
 
 			<Tools/>
 		</div>
