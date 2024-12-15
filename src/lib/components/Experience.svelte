@@ -10,7 +10,7 @@
 </script>
 
 <div class="mt-2">
-    <div class="">
+    <div class="border border-zinc-200/10 rounded-lg p-4">
         <ol class="relative border-l border-l-zinc-200">                  
             {#each experiences as experience}
                 <li class="m-4">
