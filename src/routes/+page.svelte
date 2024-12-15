@@ -22,10 +22,10 @@
 	<div class="mt-2">
 		<div>
 			<div class="mt-12">
-                <ul class="flex flex-row space-x-4 mx-auto justify-between items-center sm:space-x-6">
+                <ul class="flex justify-evenly items-center border border-zinc-200/10 rounded-lg">
                     {#each tabs as tab}
-                        <li class="">
-                            <button on:click={() => selectedTab = tab} class={`outline-none transition-colors duration-300 easy-in-out hover:text-zinc-300 ${selectedTab === tab ? 'text-zinc-200 border-b-2 border-b-zinc-200':'text-zinc-400' }`}>
+                        <li class={`flex justify-center p-2 w-full transition-colors duration-300 easy-in-out ${selectedTab == tab ? 'bg-zinc-800/50' : 'text-zinc-400'}`}>
+                            <button on:click={() => selectedTab = tab} class="flex items-center outline-none hover:text-zinc-300">
                                 <div class="flex sm:space-x-2">
                                     <Icon src={tab.icon} size="24" solid class="hidden sm:block" />
                                     <span class="font-semibold">{tab.name}</span>
