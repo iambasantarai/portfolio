@@ -25,14 +25,14 @@
 		{
 			title: 'Git',
 			icon: GitIcon
-		},
+		}
 	];
 </script>
 
 <div class="mt-12">
 	<h2 class="text-2xl font-bold text-zinc-200">Uses</h2>
 	<p class="mt-2 text-sm leading-normal text-zinc-400">
-        The tools I rely on for my Personal Development Environment(PDE)
+		The tools I rely on for my Personal Development Environment(PDE)
 	</p>
 
 	<div

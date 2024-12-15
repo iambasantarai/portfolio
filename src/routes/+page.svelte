@@ -1,15 +1,15 @@
 <script lang="ts">
-    import {Hero, Education, Experience, Tools} from '$lib/components';
-    import {Icon, AcademicCap, Briefcase} from "svelte-hero-icons";
+	import { Hero, Education, Experience, Tools } from '$lib/components';
+	import { Icon, AcademicCap, Briefcase } from 'svelte-hero-icons';
 
 	import * as config from '$lib/config';
 
-    const tabs = [
-        {name: "Experience", icon: Briefcase, component: Experience},
-        {name: "Education", icon: AcademicCap, component: Education},
-    ]
+	const tabs = [
+		{ name: 'Experience', icon: Briefcase, component: Experience },
+		{ name: 'Education', icon: AcademicCap, component: Education }
+	];
 
-    let selectedTab = tabs[0]
+	let selectedTab = tabs[0];
 </script>
 
 <svelte:head>
@@ -17,30 +17,42 @@
 </svelte:head>
 
 <section>
-	<Hero/>
+	<Hero />
 
 	<div class="mt-2">
 		<div>
 			<div class="mt-12">
-                <ul class="flex justify-evenly items-center border border-zinc-200/10 rounded-lg">
-                    {#each tabs as tab}
-                        <li class={`flex justify-center p-2 w-full transition-colors duration-300 easy-in-out ${selectedTab == tab ? 'bg-zinc-800/50' : 'text-zinc-400'}`}>
-                            <button on:click={() => selectedTab = tab} class="flex items-center outline-none hover:text-zinc-300">
-                                <div class="flex sm:space-x-2">
-                                    <Icon src={tab.icon} size="24" solid class="hidden sm:block" />
-                                    <span class="font-semibold">{tab.name}</span>
-                                </div>
-                            </button>
-                        </li>
-                    {/each}
-                </ul>
-            </div>
+				<ul
+					class="flex items-center justify-evenly rounded-lg border border-zinc-200/10"
+				>
+					{#each tabs as tab}
+						<li
+							class={`easy-in-out flex w-full justify-center p-2 transition-colors duration-300 ${selectedTab == tab ? 'bg-zinc-800/50' : 'text-zinc-400'}`}
+						>
+							<button
+								on:click={() => (selectedTab = tab)}
+								class="flex items-center outline-none hover:text-zinc-300"
+							>
+								<div class="flex sm:space-x-2">
+									<Icon
+										src={tab.icon}
+										size="24"
+										solid
+										class="hidden sm:block"
+									/>
+									<span class="font-semibold">{tab.name}</span>
+								</div>
+							</button>
+						</li>
+					{/each}
+				</ul>
+			</div>
 
-            <div>
-                <svelte:component this={selectedTab.component}/>
-            </div>
+			<div>
+				<svelte:component this={selectedTab.component} />
+			</div>
 
-			<Tools/>
+			<Tools />
 		</div>
 	</div>
 </section>
