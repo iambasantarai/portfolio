@@ -18,13 +18,16 @@
 						<div
 							class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full border border-zinc-300 bg-zinc-200"
 						></div>
-						<time class="mb-1 text-sm font-normal leading-none text-zinc-400"
-							>{academic.start} - {academic.finish}</time
-						>
-						<h3 class="text-lg font-semibold text-zinc-200">
+
+						<time class="text-xs font-normal leading-none text-zinc-400">
+							{academic.start} - {academic.finish}
+						</time>
+
+						<h3 class="mt-2 text-lg font-semibold text-zinc-200">
 							{academic.course}
 						</h3>
-						<p class="text-base font-normal text-zinc-500">
+
+						<p class="text-base font-normal text-zinc-400">
 							{academic.institution}
 						</p>
 					</li>
