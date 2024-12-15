@@ -3,8 +3,8 @@
 		{
 			start: '2019',
 			finish: '2024',
-			course: 'BSc. Computer Science and Information Technology',
-			institution: 'Prime College, TU'
+			course: '[TU] BSc. Computer Science and Information Technology',
+			institution: 'Prime College, Kathmandu'
 		}
 	];
 </script>
