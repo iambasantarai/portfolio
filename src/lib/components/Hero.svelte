@@ -21,7 +21,7 @@
 		</div>
 
 		<p class="mt-4 text-base text-zinc-200/85">
-			A software developer from <strong>Nepal</strong> with over a year of
+			A software developer from <strong>Nepal</strong> with around 2 years of
 			experience in software development, with a focus on
 			<strong>web development</strong>. I work mostly with
 			<strong>Node.js</strong>, with occasional use of <strong>React</strong>.
