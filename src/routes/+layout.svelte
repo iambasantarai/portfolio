@@ -1,7 +1,9 @@
 <script lang="ts">
 	import '../app.css';
 
-	import { Header, Footer } from '$lib/components';
+	import { Transition, Header, Footer } from '$lib/components';
+
+	export let data: { url: string };
 </script>
 
 <div class="min-h-screen bg-zinc-950 text-zinc-200 antialiased">
@@ -9,7 +11,9 @@
 		<Header />
 
 		<main>
-			<slot />
+			<Transition url={data.url}>
+				<slot />
+			</Transition>
 		</main>
 
 		<Footer />

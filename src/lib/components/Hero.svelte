@@ -20,10 +20,10 @@
 			<h1 class="text-2xl font-semibold">Hi, I'm Basanta</h1>
 		</div>
 
-		<p class="mt-4 text-base text-zinc-200/85">
-			A software developer from <strong>Nepal</strong> with around 2 years of
-			experience in software development, with a focus on
-			<strong>web development</strong>. I work mostly with
+		<p class="mt-4 text-center text-base text-zinc-200/85">
+			A software developer from <strong>Nepal</strong> with nearly two years of
+			experience, focusing on <strong>web development</strong>. I primarily work
+			with
 			<strong>Node.js</strong>, with occasional use of <strong>React</strong>.
 		</p>
 

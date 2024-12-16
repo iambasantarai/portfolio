@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
+import type { Load } from '@sveltejs/kit';
 
-export async function load({ params }) {
+export const load: Load = async ({ params }) => {
 	try {
 		const writing = await import(`../../../writings/${params.slug}.md`);
 
@@ -11,4 +12,4 @@ export async function load({ params }) {
 	} catch (e) {
 		throw error(404, `Couldn't find ${params.slug}`);
 	}
-}
+};

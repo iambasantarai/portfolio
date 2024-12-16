@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { slide } from 'svelte/transition';
+
 	import { Hero, Education, Experience, Tools } from '$lib/components';
 	import { Icon, AcademicCap, Briefcase } from 'svelte-hero-icons';
 
@@ -48,9 +50,11 @@
 				</ul>
 			</div>
 
-			<div>
-				<svelte:component this={selectedTab.component} />
-			</div>
+			{#key selectedTab}
+				<div transition:slide={{ duration: 300, axis: 'y' }}>
+					<svelte:component this={selectedTab.component} />
+				</div>
+			{/key}
 
 			<Tools />
 		</div>
