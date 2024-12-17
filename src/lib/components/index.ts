@@ -6,4 +6,3 @@ export { default as Education } from './Education.svelte';
 export { default as Skills } from './Skills.svelte';
 export { default as Experience } from './Experience.svelte';
 export { default as Tools } from './Tools.svelte';
-export { default as Proect } from './Projects.svelte';
