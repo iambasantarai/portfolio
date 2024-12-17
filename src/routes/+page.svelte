@@ -5,6 +5,7 @@
 	import { Icon, AcademicCap, Briefcase } from 'svelte-hero-icons';
 
 	import * as config from '$lib/config';
+	import Projects from '$lib/components/Projects.svelte';
 
 	const tabs = [
 		{ name: 'Experience', icon: Briefcase, component: Experience },
@@ -55,6 +56,8 @@
 					<svelte:component this={selectedTab.component} />
 				</div>
 			{/key}
+
+            <Projects />
 
 			<Tools />
 		</div>
