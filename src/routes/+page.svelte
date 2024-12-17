@@ -31,7 +31,7 @@
 					{#each tabs as tab}
 						<button
                             on:click={() => (selectedTab = tab)}
-							class={`easy-in-out flex w-full justify-center p-2 transition-colors duration-300 ${selectedTab == tab ? 'bg-zinc-800/50' : 'text-zinc-400'}`}
+							class={`easy-in-out flex w-full rounded-lg outline-none justify-center p-2 transition-colors duration-300 ${selectedTab == tab ? 'bg-zinc-800/50' : 'text-zinc-400'}`}
 						>
 							<div
 								class="flex items-center outline-none hover:text-zinc-300"
