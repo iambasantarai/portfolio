@@ -46,7 +46,7 @@
 		<a
 			href={resumeURL}
 			download="basanta-rai-resume.pdf"
-			class="group mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 bg-zinc-800/50 px-3 py-2 text-sm font-medium text-zinc-300 outline-offset-2 transition hover:bg-zinc-800 hover:text-zinc-50 active:bg-zinc-800/50 active:text-zinc-50/70 active:transition-none"
+			class="group mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 hover:bg-zinc-200/10 px-3 py-2 text-sm font-medium text-zinc-300 outline-offset-2 transition-colors duration-300 ease-in-out hover:text-zinc-400"
 		>
 			Download Resume
 			<Icon src={DocumentArrowDown} size="20" />
