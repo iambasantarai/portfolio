@@ -24,15 +24,15 @@
 	<div class="mt-2">
 		<div>
 			<div class="mt-12">
-				<ul
+				<div
 					class="flex items-center justify-evenly rounded-lg border border-zinc-200/10"
 				>
 					{#each tabs as tab}
-						<li
+						<button
+                            on:click={() => (selectedTab = tab)}
 							class={`easy-in-out flex w-full justify-center p-2 transition-colors duration-300 ${selectedTab == tab ? 'bg-zinc-800/50' : 'text-zinc-400'}`}
 						>
-							<button
-								on:click={() => (selectedTab = tab)}
+							<div
 								class="flex items-center outline-none hover:text-zinc-300"
 							>
 								<div class="flex sm:space-x-2">
@@ -44,10 +44,10 @@
 									/>
 									<span class="font-semibold">{tab.name}</span>
 								</div>
-							</button>
-						</li>
+							</div>
+						</button>
 					{/each}
-				</ul>
+				</div>
 			</div>
 
 			{#key selectedTab}
