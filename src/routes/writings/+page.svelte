@@ -30,21 +30,9 @@
 					href={`/writings/${writing.slug}`}
 				>
 					Read
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						class="size-4 transition-transform duration-300 group-hover:translate-x-1"
-					>
-						<path d="M18 8L22 12L18 16"></path>
-						<path d="M2 12H22"></path>
-					</svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-300 group-hover:translate-x-1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
 				</a>
 			</li>
 		{/each}

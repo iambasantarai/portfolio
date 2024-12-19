@@ -16,19 +16,9 @@
 		aria-label="Go back to articles"
 		class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full border border-zinc-700/50 bg-zinc-800 shadow-md shadow-zinc-800/5 ring-0 ring-zinc-200/10 transition hover:border-zinc-700 hover:ring-zinc-200/20"
 	>
-		<svg
-			viewBox="0 0 16 16"
-			fill="none"
-			aria-hidden="true"
-			class="h-4 w-4 stroke-zinc-500 transition group-hover:stroke-zinc-400"
-		>
-			<path
-				d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5"
-				stroke-width="1.5"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			></path>
-		</svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-300 group-hover:-translate-x-1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+        </svg>
 	</a>
 
 	<header class="flex flex-col">
