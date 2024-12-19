@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
 
-	import { Hero, Education, Experience, Tools } from '$lib/components';
+	import { Hero, Education, Experience, Tools, Projects } from '$lib/components';
 	import { Icon, AcademicCap, Briefcase } from 'svelte-hero-icons';
 
 	import * as config from '$lib/config';
@@ -56,7 +56,10 @@
 				</div>
 			{/key}
 
+            <Projects />
+
 			<Tools />
+
 		</div>
 	</div>
 </section>

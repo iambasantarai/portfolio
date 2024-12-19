@@ -1,8 +1,8 @@
 <script lang="ts">
     const projects = [
         {
-            name: 'ga',
-            description: 'A toy programming language \'ग\'; a language that uses the devnagari script',
+            name: 'ga (ग)',
+            description: 'It is a programming language that uses the devnagari script. This project is a work-in-progress, born out of my curiosity about how compilers function and my desire to understand the intricacies of programming language design.',
             stack: 'go',
             source: 'https://github.com/iambasantarai/ga'
         }
