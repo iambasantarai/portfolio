@@ -4,7 +4,7 @@
     const projects = [
         {
             name: 'ga (ग)',
-            description: 'It is a programming language that uses the devnagari script. This project is a work-in-progress, born out of my curiosity about how compilers function and my desire to understand the intricacies of programming language design.',
+            description: 'A toy programming language inspired by C that uses the devnagari script, is currently a work in progress. It was born out of my curiosity about how compilers function and my desire to understand the intricacies of programming language design.',
             stack: 'go',
             source: 'https://github.com/iambasantarai/ga'
         }
