@@ -9,12 +9,12 @@
 		>
 			<a
 				href="/"
-				class={`rounded-full bg-zinc-800 px-2 py-1.5 transition-opacity duration-300 ease-in-out hover:bg-zinc-700 ${$page.url.pathname === '/' ? 'border border-zinc-200/10 bg-zinc-700 text-zinc-200' : 'text-zinc-300/85'}`}
+				class={`rounded-full px-2 py-1.5 transition-opacity duration-300 ease-in-out hover:bg-zinc-700 ${$page.url.pathname === '/' ? 'border border-zinc-200/10 bg-zinc-700 text-zinc-200' : 'bg-zinc-800 text-zinc-300/85'}`}
 				>Home</a
 			>
 			<a
 				href="/writings"
-				class={`rounded-full bg-zinc-800 px-2 py-1.5 transition-opacity duration-300 ease-in-out hover:bg-zinc-700 ${$page.url.pathname === '/writings' ? 'border border-zinc-200/10 bg-zinc-700 text-zinc-200' : 'text-zinc-300/85'}`}
+				class={`rounded-full px-2 py-1.5 transition-opacity duration-300 ease-in-out hover:bg-zinc-700 ${$page.url.pathname === '/writings' ? 'border border-zinc-200/10 bg-zinc-700 text-zinc-200' : 'bg-zinc-800 text-zinc-300/85'}`}
 				>Writings</a
 			>
 		</nav>
