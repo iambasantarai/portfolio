@@ -14,11 +14,22 @@
 	<a
 		href="/writings"
 		aria-label="Go back to articles"
-		class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full border border-zinc-700/50 bg-zinc-800 shadow-md shadow-zinc-800/5 ring-0 ring-zinc-200/10 transition hover:border-zinc-700 hover:ring-zinc-200/20"
+		class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full border border-zinc-200/10 bg-zinc-800 hover:bg-zinc-700"
 	>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-300 group-hover:-translate-x-1">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
-        </svg>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			fill="currentColor"
+			viewBox="0 0 24 24"
+			stroke-width="2"
+			stroke="currentColor"
+			class="size-4 transition-transform duration-300 group-hover:-translate-x-1"
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18"
+			/>
+		</svg>
 	</a>
 
 	<header class="flex flex-col">

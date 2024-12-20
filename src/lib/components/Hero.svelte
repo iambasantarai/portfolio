@@ -20,7 +20,7 @@
 			<h1 class="text-2xl font-semibold">Hi, I'm Basanta</h1>
 		</div>
 
-		<p class="mt-4 text-center text-base text-zinc-200/85">
+		<p class="mt-4 text-center text-base text-zinc-400">
 			A software developer from <strong>Nepal</strong> with nearly two years of
 			experience, focusing on <strong>web development</strong>. I primarily work
 			with
@@ -35,7 +35,7 @@
 					<a
 						href="https://github.com/iambasantarai"
 						target="_blank"
-						class="font-semibold text-zinc-300 underline hover:text-zinc-200"
+						class="font-semibold text-zinc-300 underline transition-colors duration-300 hover:text-zinc-400"
 						>GitHub</a
 					>
 				</li>
@@ -44,7 +44,7 @@
 					<a
 						href="https://www.linkedin.com/in/iambasantarai/"
 						target="_blank"
-						class="font-semibold text-zinc-300 underline hover:text-zinc-200"
+						class="font-semibold text-zinc-300 underline transition-colors duration-300 hover:text-zinc-400"
 						>LinkedIn</a
 					>
 				</li>
@@ -53,7 +53,7 @@
 					<a
 						href="https://x.com/iambasantarai"
 						target="_blank"
-						class="font-semibold text-zinc-300 underline hover:text-zinc-200"
+						class="font-semibold text-zinc-300 underline transition-colors duration-300 hover:text-zinc-400"
 						>X</a
 					>
 				</li>

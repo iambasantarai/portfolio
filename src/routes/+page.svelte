@@ -1,7 +1,13 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
 
-	import { Hero, Education, Experience, Tools, Projects } from '$lib/components';
+	import {
+		Hero,
+		Education,
+		Experience,
+		Tools,
+		Projects
+	} from '$lib/components';
 	import { Icon, AcademicCap, Briefcase } from 'svelte-hero-icons';
 
 	import * as config from '$lib/config';
@@ -25,16 +31,14 @@
 		<div>
 			<div class="mt-12">
 				<div
-					class="flex items-center justify-evenly rounded-lg border border-zinc-200/10"
+					class="flex items-center justify-evenly overflow-hidden rounded-lg border border-zinc-200/10"
 				>
 					{#each tabs as tab}
 						<button
-                            on:click={() => (selectedTab = tab)}
-							class={`flex w-full rounded-lg outline-none justify-center p-2 transition-colors duration-300 ease-in-out ${selectedTab == tab ? 'bg-zinc-200/10' : 'text-zinc-400'}`}
+							on:click={() => (selectedTab = tab)}
+							class={`flex w-full justify-center p-2 outline-none transition-colors duration-300 ease-in-out ${selectedTab == tab ? 'bg-zinc-800' : 'text-zinc-400'}`}
 						>
-							<div
-								class="flex items-center outline-none hover:text-zinc-300"
-							>
+							<div class="flex items-center outline-none hover:text-zinc-300">
 								<div class="flex sm:space-x-2">
 									<Icon
 										src={tab.icon}
@@ -56,10 +60,9 @@
 				</div>
 			{/key}
 
-            <Projects />
+			<Projects />
 
 			<Tools />
-
 		</div>
 	</div>
 </section>
