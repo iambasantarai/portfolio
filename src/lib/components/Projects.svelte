@@ -26,7 +26,10 @@
 	<div class="mt-12">
 		<h2 class="text-2xl font-bold text-zinc-200">Projects</h2>
 
-		<p class="mt-2 text-sm leading-normal text-zinc-400">I’m currently in the process of updating my projects and refining my GitHub repositories to better showcase my skills and recent work.</p>
+		<p class="mt-2 text-sm leading-normal text-zinc-400">
+			I’m currently in the process of updating my projects and refining my
+			GitHub repositories to better showcase my skills and recent work.
+		</p>
 
 		<!-- <div class="mt-6 space-y-4"> -->
 		<!-- 	{#each projects.slice(0, visibleProjects) as project} -->

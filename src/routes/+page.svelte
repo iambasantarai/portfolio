@@ -6,14 +6,21 @@
 		Education,
 		Experience,
 		Tools,
-		Projects
+		Projects,
+		Skills
 	} from '$lib/components';
-	import { Icon, AcademicCap, Briefcase } from 'svelte-hero-icons';
+	import {
+		Icon,
+		AcademicCap,
+		Briefcase,
+		WrenchScrewdriver
+	} from 'svelte-hero-icons';
 
 	import * as config from '$lib/config';
 
 	const tabs = [
 		{ name: 'Experience', icon: Briefcase, component: Experience },
+		{ name: 'Skills', icon: WrenchScrewdriver, component: Skills },
 		{ name: 'Education', icon: AcademicCap, component: Education }
 	];
 
