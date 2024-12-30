@@ -2,11 +2,16 @@
 	import LinuxIcon from '../../assets/icons/linux.svelte';
 	import NeovimIcon from '../../assets/icons/neovim.svelte';
 	import TmuxIcon from '../../assets/icons/tmux.svelte';
+	import TerminalIcon from '../../assets/icons/terminal.svelte';
 
 	const tools = [
 		{
 			title: 'Linux',
 			icon: LinuxIcon
+		},
+		{
+			title: 'Terminal',
+			icon: TerminalIcon
 		},
 		{
 			title: 'Tmux',
