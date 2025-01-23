@@ -4,7 +4,7 @@
 			<img
 				src="/basanta.png"
 				alt="Basanta Rai"
-				class="h-24 w-24 object-cover"
+				class="h-24 w-24 object-cover p-0.5"
 				width="auto"
 				height="auto"
 			/>
