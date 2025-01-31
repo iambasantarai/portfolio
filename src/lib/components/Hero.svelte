@@ -13,7 +13,7 @@
 			<div
 				class="absolute left-0 top-1/2 z-0 h-[175px] w-[1px] -translate-y-1/2"
 			>
-				<svg class="absolute inset-0 text-gray-300" height="100%" width="100%">
+				<svg class="absolute inset-0 text-zinc-300" height="100%" width="100%">
 					<defs>
 						<pattern
 							height="6"
@@ -64,7 +64,7 @@
 			<div
 				class="absolute right-0 top-1/2 z-0 h-[175px] w-[1px] -translate-y-1/2"
 			>
-				<svg class="absolute inset-0 text-gray-300" height="100%" width="100%">
+				<svg class="absolute inset-0 text-zinc-300" height="100%" width="100%">
 					<defs>
 						<pattern
 							height="6"
@@ -115,7 +115,7 @@
 			<div
 				class="absolute left-1/2 top-0 z-0 h-[1px] w-[195px] -translate-x-1/2"
 			>
-				<svg class="absolute inset-0 text-gray-300" height="100%" width="100%">
+				<svg class="absolute inset-0 text-zinc-300" height="100%" width="100%">
 					<defs>
 						<pattern
 							height="6"
@@ -166,7 +166,7 @@
 			<div
 				class="absolute bottom-0 left-1/2 h-[1px] w-[195px] -translate-x-1/2"
 			>
-				<svg class="absolute inset-0 text-gray-300" height="100%" width="100%">
+				<svg class="absolute inset-0 text-zinc-300" height="100%" width="100%">
 					<defs>
 						<pattern
 							height="6"
