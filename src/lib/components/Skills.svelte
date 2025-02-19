@@ -7,9 +7,9 @@
 	import LuaIcon from '../../assets/icons/lua.svelte';
 	import MySQLIcon from '../../assets/icons/mysql.svelte';
 	import PGSQLIcon from '../../assets/icons/pgsql.svelte';
-	import PortainerIcon from '../../assets/icons/portainer.svelte';
 	import ExpressIcon from '../../assets/icons/express.svelte';
 	import JavascriptIcon from '../../assets/icons/javascript.svelte';
+    import NestIcon from '../../assets/icons/nest.svelte';
 	import NodeIcon from '../../assets/icons/nodejs.svelte';
 	import ReactIcon from '../../assets/icons/react.svelte';
 	import TypescriptIcon from '../../assets/icons/typescript.svelte';
@@ -24,8 +24,9 @@
 
 	const frameworkAndLibraries = [
 		{ icon: ExpressIcon, name: 'Express' },
+        { icon: NestIcon, name: 'Nest' },
 		{ icon: JestIcon, name: 'Jest' },
-		{ icon: ReactIcon, name: 'React' }
+		{ icon: ReactIcon, name: 'React' },
 	];
 
 	const miscellaneous = [
@@ -34,7 +35,6 @@
 		{ icon: MySQLIcon, name: 'MySQL' },
 		{ icon: NodeIcon, name: 'Node.js' },
 		{ icon: PGSQLIcon, name: 'PostgresSQL' },
-		{ icon: PortainerIcon, name: 'Portianer' }
 	];
 </script>
 
