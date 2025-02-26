@@ -12,6 +12,7 @@
     import NestIcon from '../../assets/icons/nest.svelte';
 	import NodeIcon from '../../assets/icons/nodejs.svelte';
 	import ReactIcon from '../../assets/icons/react.svelte';
+	import RabbitMQIcon from '../../assets/icons/rabbitmq.svelte';
 	import TypescriptIcon from '../../assets/icons/typescript.svelte';
 
 	const programmingLanguages = [
@@ -35,6 +36,7 @@
 		{ icon: MySQLIcon, name: 'MySQL' },
 		{ icon: NodeIcon, name: 'Node.js' },
 		{ icon: PGSQLIcon, name: 'PostgresSQL' },
+		{ icon: RabbitMQIcon, name: 'RabbitMQ' },
 	];
 </script>
 
