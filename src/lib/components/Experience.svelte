@@ -1,7 +1,7 @@
 <script lang="ts">
-	let resumeURL = '/basanta_rai_resume_2024.pdf';
+	let resumeURL = '/basanta_rai_cv_2025.pdf';
 
-	import { Icon, DocumentArrowDown } from 'svelte-hero-icons';
+	import { Icon, Eye } from 'svelte-hero-icons';
 
 	const experiences = [
 		{
@@ -45,11 +45,11 @@
 
 		<a
 			href={resumeURL}
-			download="basanta-rai-resume.pdf"
+            target="_blank"
 			class="group mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 bg-zinc-800 px-3 py-2 text-sm font-medium text-zinc-400 outline-offset-2 transition-colors duration-300 ease-in-out hover:bg-zinc-700 hover:text-zinc-300"
 		>
-			Download Resume
-			<Icon src={DocumentArrowDown} size="20" />
+			View CV
+			<Icon src={Eye} size="20" />
 		</a>
 	</div>
 </div>
