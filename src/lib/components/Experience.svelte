@@ -46,7 +46,7 @@
 		<a
 			href={resumeURL}
             target="_blank"
-			class="font-semibold group mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 bg-zinc-800 px-3 py-2 text-sm text-zinc-400 outline-offset-2 transition-colors duration-300 ease-in-out hover:bg-zinc-700 hover:text-zinc-300"
+			class="font-medium group mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 bg-zinc-800 px-3 py-2 text-sm text-zinc-400 outline-offset-2 transition-colors duration-300 ease-in-out hover:bg-zinc-700 hover:text-zinc-300"
 		>
 			View CV
 			<Icon src={Eye} size="20" />
