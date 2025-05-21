@@ -9,7 +9,7 @@
 	import PGSQLIcon from '../../assets/icons/pgsql.svelte';
 	import ExpressIcon from '../../assets/icons/express.svelte';
 	import JavascriptIcon from '../../assets/icons/javascript.svelte';
-    import NestIcon from '../../assets/icons/nest.svelte';
+	import NestIcon from '../../assets/icons/nest.svelte';
 	import NodeIcon from '../../assets/icons/nodejs.svelte';
 	import ReactIcon from '../../assets/icons/react.svelte';
 	import RabbitMQIcon from '../../assets/icons/rabbitmq.svelte';
@@ -25,9 +25,9 @@
 
 	const frameworkAndLibraries = [
 		{ icon: ExpressIcon, name: 'Express' },
-        { icon: NestIcon, name: 'Nest' },
+		{ icon: NestIcon, name: 'Nest' },
 		{ icon: JestIcon, name: 'Jest' },
-		{ icon: ReactIcon, name: 'React' },
+		{ icon: ReactIcon, name: 'React' }
 	];
 
 	const miscellaneous = [
@@ -36,7 +36,7 @@
 		{ icon: MySQLIcon, name: 'MySQL' },
 		{ icon: NodeIcon, name: 'Node.js' },
 		{ icon: PGSQLIcon, name: 'PostgresSQL' },
-		{ icon: RabbitMQIcon, name: 'RabbitMQ' },
+		{ icon: RabbitMQIcon, name: 'RabbitMQ' }
 	];
 </script>
 
