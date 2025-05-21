@@ -9,6 +9,7 @@
 	import PGSQLIcon from '../../assets/icons/pgsql.svelte';
 	import ExpressIcon from '../../assets/icons/express.svelte';
 	import JavascriptIcon from '../../assets/icons/javascript.svelte';
+	import LoopBackIcon from '../../assets/icons/loopback.svelte';
 	import NestIcon from '../../assets/icons/nest.svelte';
 	import NodeIcon from '../../assets/icons/nodejs.svelte';
 	import ReactIcon from '../../assets/icons/react.svelte';
@@ -25,6 +26,7 @@
 
 	const frameworkAndLibraries = [
 		{ icon: ExpressIcon, name: 'Express' },
+		{ icon: LoopBackIcon, name: 'LoopBack' },
 		{ icon: NestIcon, name: 'Nest' },
 		{ icon: JestIcon, name: 'Jest' },
 		{ icon: ReactIcon, name: 'React' }
