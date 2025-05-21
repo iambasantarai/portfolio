@@ -1,7 +1,8 @@
 <script lang="ts">
-	let resumeURL = '/basanta_rai_cv_2025.pdf';
+	import ClosedEyeIcon from '../../assets/icons/closedEye.svelte';
+	import OpenEyeIcon from '../../assets/icons/openEye.svelte';
 
-	import { Icon, Eye } from 'svelte-hero-icons';
+	let resumeURL = '/basanta_rai_cv_2025.pdf';
 
 	const experiences = [
 		{
@@ -49,7 +50,8 @@
 			class="group mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 bg-zinc-800 px-3 py-2 font-medium text-zinc-400 outline-offset-2 transition-colors duration-300 ease-in-out hover:bg-zinc-700 hover:text-zinc-300"
 		>
 			View Resume
-			<Icon src={Eye} size="20" />
+			<ClosedEyeIcon class="block size-6 group-hover:hidden" />
+			<OpenEyeIcon class="hidden size-6 group-hover:block" />
 		</a>
 	</div>
 </div>
