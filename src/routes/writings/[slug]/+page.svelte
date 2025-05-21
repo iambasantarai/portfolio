@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
-	import { Icon, ArrowLongLeft } from 'svelte-hero-icons';
+	import { MoveLeft } from 'lucide-svelte';
 
 	export let data;
 </script>
@@ -17,8 +17,8 @@
 		aria-label="Go back to articles"
 		class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full border border-zinc-200/10 bg-zinc-800 hover:bg-zinc-700"
 	>
-		<Icon
-			src={ArrowLongLeft}
+		<svelte:component
+			this={MoveLeft}
 			size="24"
 			class="size-4 transition-transform duration-300 group-hover:-translate-x-1"
 		/>

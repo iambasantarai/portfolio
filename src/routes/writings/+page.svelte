@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as config from '$lib/config';
-	import { ArrowLongRight, Icon } from 'svelte-hero-icons';
+	import { MoveRight } from 'lucide-svelte';
 
 	export let data;
 </script>
@@ -31,8 +31,9 @@
 					href={`/writings/${writing.slug}`}
 				>
 					Read
-					<Icon
-						src={ArrowLongRight}
+
+					<svelte:component
+						this={MoveRight}
 						size="24"
 						class="size-4 transition-transform duration-300 group-hover:translate-x-1"
 					/>

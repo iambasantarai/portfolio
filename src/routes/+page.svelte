@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
+	import { Swords, Briefcase, GraduationCap } from 'lucide-svelte';
+	import * as config from '$lib/config';
 
 	import {
 		Hero,
@@ -9,19 +11,11 @@
 		Projects,
 		Skills
 	} from '$lib/components';
-	import {
-		Icon,
-		AcademicCap,
-		Briefcase,
-		WrenchScrewdriver
-	} from 'svelte-hero-icons';
-
-	import * as config from '$lib/config';
 
 	const tabs = [
 		{ name: 'Experience', icon: Briefcase, component: Experience },
-		{ name: 'Skills', icon: WrenchScrewdriver, component: Skills },
-		{ name: 'Education', icon: AcademicCap, component: Education }
+		{ name: 'Skills', icon: Swords, component: Skills },
+		{ name: 'Education', icon: GraduationCap, component: Education }
 	];
 
 	let selectedTab = tabs[0];
@@ -47,10 +41,9 @@
 						>
 							<div class="flex items-center outline-none hover:text-zinc-300">
 								<div class="flex sm:space-x-2">
-									<Icon
-										src={tab.icon}
+									<svelte:component
+										this={tab.icon}
 										size="24"
-										solid
 										class="hidden sm:block"
 									/>
 									<span class="font-semibold">{tab.name}</span>
