@@ -43,7 +43,7 @@
 </script>
 
 <section>
-	<div class="mt-2">
+	<div class="mt-3">
 		<div class="space-y-6 rounded-lg border border-zinc-200/10 p-4">
 			<div>
 				<h2 class="text-sm font-semibold text-zinc-300">

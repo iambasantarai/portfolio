@@ -10,7 +10,7 @@
 </script>
 
 <section>
-	<div class="mt-2">
+	<div class="mt-3">
 		<div class="rounded-lg border border-zinc-200/10 p-4">
 			<ol class="relative border-l border-l-zinc-200">
 				{#each academics as academic}

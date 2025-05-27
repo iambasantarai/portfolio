@@ -19,7 +19,7 @@
 	];
 </script>
 
-<div class="mt-2">
+<div class="mt-3">
 	<div class="rounded-lg border border-zinc-200/10 p-4">
 		<ol class="relative border-l border-l-zinc-200">
 			{#each experiences as experience}
@@ -46,7 +46,7 @@
 		<a
 			href={resumeURL}
 			target="_blank"
-			class="group mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 bg-zinc-800 px-3 py-2 font-semibold text-zinc-400 outline-offset-2 transition-colors duration-300 ease-in-out hover:bg-zinc-700 hover:text-zinc-300"
+			class="group mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-zinc-200/15 bg-zinc-800 px-2 py-2 font-semibold text-zinc-400 outline-offset-2 transition-colors duration-300 ease-in-out hover:bg-zinc-700 hover:text-zinc-300"
 		>
 			View Resume
 			<FileText class="size-6" />

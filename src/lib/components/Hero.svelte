@@ -1,4 +1,4 @@
-<div class="mt-8">
+<div class="mt-12">
 	<div class="flex flex-col items-center">
 		<div class="relative my-4 flex">
 			<img
@@ -215,7 +215,7 @@
 			</div>
 		</div>
 
-		<div class="mt-4">
+		<div class="mt-6">
 			<h1 class="text-2xl font-semibold">Hi, I'm Basanta</h1>
 		</div>
 
@@ -227,7 +227,7 @@
 			<strong>React</strong>.
 		</p>
 
-		<div class="mt-6">
+		<div class="mt-8">
 			<ol
 				class="mx-auto flex flex-row items-center justify-center divide-x-2 divide-current divide-zinc-400"
 			>
