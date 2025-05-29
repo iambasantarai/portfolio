@@ -4,15 +4,15 @@ export default {
 	theme: {
 		extend: {
 			animation: {
-				'move-left': 'move-left 1s linear infinite'
+				'infinite-scroll': 'infinite-scroll var(--duration) linear infinite'
 			},
 			keyframes: {
-				'move-left': {
-					'0%': {
-						transform: 'translateX(0%)'
+				'infinite-scroll': {
+					from: {
+						transform: 'translateX(0)'
 					},
-					'100%': {
-						transform: 'translateX(-50%)'
+					to: {
+						transform: 'translateX(calc(-50% - var(--gap)/2))'
 					}
 				}
 			}
