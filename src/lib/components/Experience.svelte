@@ -5,8 +5,14 @@
 
 	const experiences = [
 		{
-			from: 'Aug, 2023',
+			from: 'Aug, 2025',
 			to: 'Present',
+			company: 'EB Pearls',
+			position: 'Associate Node.js Developer'
+		},
+		{
+			from: 'Aug, 2023',
+			to: 'Aug 2025',
 			company: 'Amnil Technologies Pvt. Ltd.',
 			position: 'Associate Software Engineer'
 		},
