@@ -8,5 +8,6 @@ date: '2024-9-16'
 
 I do read sometimes. '^^
 
+- Ikigai
 - Animal Farm
 - The Rudest Book Ever
