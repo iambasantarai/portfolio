@@ -1,44 +1,44 @@
 <script lang="ts">
 	import BashIcon from '../../assets/icons/bash.svelte';
 	import DockerIcon from '../../assets/icons/docker.svelte';
+	import ExpressIcon from '../../assets/icons/express.svelte';
 	import GitIcon from '../../assets/icons/git.svelte';
 	import GoIcon from '../../assets/icons/go.svelte';
-	import JestIcon from '../../assets/icons/jest.svelte';
-	import LuaIcon from '../../assets/icons/lua.svelte';
-	import MySQLIcon from '../../assets/icons/mysql.svelte';
-	import PGSQLIcon from '../../assets/icons/pgsql.svelte';
-	import ExpressIcon from '../../assets/icons/express.svelte';
+	import GraphQLIcon from '../../assets/icons/graphql.svelte';
 	import JavascriptIcon from '../../assets/icons/javascript.svelte';
 	import LoopBackIcon from '../../assets/icons/loopback.svelte';
+	import LuaIcon from '../../assets/icons/lua.svelte';
+	import MongoDBIcon from '../../assets/icons/mongo.svelte';
+	import MySQLIcon from '../../assets/icons/mysql.svelte';
 	import NestIcon from '../../assets/icons/nest.svelte';
 	import NodeIcon from '../../assets/icons/nodejs.svelte';
-	import ReactIcon from '../../assets/icons/react.svelte';
+	import PGSQLIcon from '../../assets/icons/pgsql.svelte';
 	import RabbitMQIcon from '../../assets/icons/rabbitmq.svelte';
 	import TypescriptIcon from '../../assets/icons/typescript.svelte';
 
 	const programmingLanguages = [
-		{ icon: JavascriptIcon, name: 'Javascript' },
-		{ icon: TypescriptIcon, name: 'Typescript' },
+		{ icon: BashIcon, name: 'Bash' },
 		{ icon: GoIcon, name: 'Go' },
+		{ icon: JavascriptIcon, name: 'Javascript' },
 		{ icon: LuaIcon, name: 'Lua' },
-		{ icon: BashIcon, name: 'Bash' }
+		{ icon: TypescriptIcon, name: 'Typescript' },
 	];
 
 	const frameworkAndLibraries = [
 		{ icon: ExpressIcon, name: 'Express' },
 		{ icon: LoopBackIcon, name: 'LoopBack' },
 		{ icon: NestIcon, name: 'Nest' },
-		{ icon: JestIcon, name: 'Jest' },
-		{ icon: ReactIcon, name: 'React' }
 	];
 
 	const miscellaneous = [
 		{ icon: DockerIcon, name: 'Docker' },
 		{ icon: GitIcon, name: 'Git' },
+		{ icon: GraphQLIcon, name: 'GraphQL' },
+		{ icon: MongoDBIcon, name: 'MongoDB' },
 		{ icon: MySQLIcon, name: 'MySQL' },
 		{ icon: NodeIcon, name: 'Node.js' },
 		{ icon: PGSQLIcon, name: 'PostgresSQL' },
-		{ icon: RabbitMQIcon, name: 'RabbitMQ' }
+		{ icon: RabbitMQIcon, name: 'RabbitMQ' },
 	];
 </script>
 
