@@ -11,16 +11,10 @@
 			position: 'Associate Node.js Developer'
 		},
 		{
-			from: 'Aug, 2023',
+			from: 'May, 2023',
 			to: 'Aug 2025',
 			company: 'Amnil Technologies Pvt. Ltd.',
 			position: 'Associate Software Engineer'
-		},
-		{
-			from: 'May, 2023',
-			to: 'Aug, 2023',
-			company: 'Amnil Technologies Pvt. Ltd.',
-			position: 'Node.js Intern'
 		}
 	];
 </script>
