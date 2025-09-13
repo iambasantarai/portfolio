@@ -1,5 +1,6 @@
 <script lang="ts">
 	import * as config from '$lib/config';
+	import { formatDate } from '$lib/utils';
 	import { MoveRight } from 'lucide-svelte';
 
 	export let data;
@@ -17,11 +18,14 @@
 
 	<ul class="mt-12 space-y-4">
 		{#each data.writings as writing}
-			<li class="">
-				<a
-					class="text-2xl font-semibold no-underline hover:underline"
-					href={`/writings/${writing.slug}`}>{writing.title}</a
-				>
+			<li>
+                <div class="flex justify-between items-baseline">
+                    <a
+                        class="text-2xl font-semibold no-underline hover:underline"
+                        href={`/writings/${writing.slug}`}>{writing.title}</a
+                    >
+ <span class="text-sm font-base">{formatDate(writing.date)}</span>
+                </div>
 				<p class="text-base font-normal leading-normal text-zinc-400">
 					{writing.description}
 				</p>
