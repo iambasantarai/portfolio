@@ -21,13 +21,13 @@
 		{ icon: GoIcon, name: 'Go' },
 		{ icon: JavascriptIcon, name: 'Javascript' },
 		{ icon: LuaIcon, name: 'Lua' },
-		{ icon: TypescriptIcon, name: 'Typescript' },
+		{ icon: TypescriptIcon, name: 'Typescript' }
 	];
 
 	const frameworkAndLibraries = [
 		{ icon: ExpressIcon, name: 'Express' },
 		{ icon: LoopBackIcon, name: 'LoopBack' },
-		{ icon: NestIcon, name: 'Nest' },
+		{ icon: NestIcon, name: 'Nest' }
 	];
 
 	const miscellaneous = [
@@ -38,7 +38,7 @@
 		{ icon: MySQLIcon, name: 'MySQL' },
 		{ icon: NodeIcon, name: 'Node.js' },
 		{ icon: PGSQLIcon, name: 'PostgresSQL' },
-		{ icon: RabbitMQIcon, name: 'RabbitMQ' },
+		{ icon: RabbitMQIcon, name: 'RabbitMQ' }
 	];
 </script>
 

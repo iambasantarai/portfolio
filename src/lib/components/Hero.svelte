@@ -248,15 +248,6 @@
 						>LinkedIn</a
 					>
 				</li>
-
-				<li class="px-4">
-					<a
-						href="https://x.com/iambasantarai"
-						target="_blank"
-						class="font-semibold text-zinc-300 underline transition-colors duration-300 hover:text-zinc-400"
-						>X</a
-					>
-				</li>
 			</ol>
 		</div>
 	</div>
