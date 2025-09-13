@@ -220,7 +220,8 @@
 		</div>
 
 		<p class="mt-4 text-center text-base text-zinc-400">
-            Someone who loves working on backend systems and enjoys digging into how things work under the hood.
+			Someone who loves working on backend systems and enjoys digging into how
+			things work under the hood.
 		</p>
 
 		<div class="mt-8">
