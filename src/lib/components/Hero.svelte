@@ -220,11 +220,7 @@
 		</div>
 
 		<p class="mt-4 text-center text-base text-zinc-400">
-			A software developer from <strong>Nepal</strong> with two years of
-			experience, focusing on <strong>web development</strong>. I primarily work
-			with
-			<strong>Node.js</strong> & <strong>Go</strong> with occasional use of
-			<strong>React</strong>.
+            Software developer who loves working on backend systems and enjoys digging into how things work under the hood.
 		</p>
 
 		<div class="mt-8">
